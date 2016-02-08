@@ -1,6 +1,6 @@
 //: Previous [Integers and Floating-point numbers](@previous)
 //: # Type Safety and Type Infernce
-/*: 
+/*:
 Swift is a _type-safe_ language. A type safe language encourages you to be clear about the types of values your code can work with. If part of your code expects a `String`, you can't pass it an `Int` by mistake
 
 Because Swift is type safe, it performs _type checks_ when compiling your code and flags any mismatched types as errors. This enable you to catch and fix errors as early as possible in the development process.
@@ -11,7 +11,9 @@ Because of type inference, Swift requires far fewer type declarations than langu
 
 Type inference is particulary useful when you declare a constant or variable with an initial value. This is often done by assigning a _literal value_ (or _literal_) to the constant or variable at the point that you declare it.
 */
-
+let meaningOfLife = 42
+let pi = 3.14159
 //: Swift always chooses `Double` (rather than `Float`) when inferring the type of floating-point literals in an expression
-
+//: If you combine integer and floating-point literals in an expression, a type of `Double` will be inferred from the context:
+let anotherPi = 3 + 0.14159
 //: Move on to [Numberic Literals](@next)

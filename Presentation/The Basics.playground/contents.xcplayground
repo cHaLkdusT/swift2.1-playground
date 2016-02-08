@@ -3,8 +3,8 @@
     <pages>
         <page name='Introduction'/>
         <page name='Constants and Variables'/>
-        <page name='Integers and Floating-point numbers'/>
-        <page name='Comments and Semicolon'/>
+        <page name='Comments and Semicolons'/>
+        <page name='Integers and Floating Numbers'/>
         <page name='Type Safety and Type Inference'/>
         <page name='Numeric Literals'/>
         <page name='Numeric Type Conversion'/>

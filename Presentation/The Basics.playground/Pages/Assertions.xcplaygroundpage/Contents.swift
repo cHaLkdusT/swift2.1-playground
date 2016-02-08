@@ -1,14 +1,23 @@
-//: Previous [Assertions](@previous)
+//: Previous [Error Handling](@previous)
 //: # Assertions
 //: In some cases, it is simple not possible for your code to continue execution if a particular condition is not satisfied. In these situations, you can trigger an _assertion_ in your code to end code execution and to provide an opportunity to debug the cause of the absent of invalid value
 //: ## Debugging with Assertions
-/*: 
+/*:
 An assertion is a runtime check that a Boolean condition definitely evaluates to `true`. Literally put, an assertion "asserts" that a condition is true.
 
 You write an assertion by calling the Swift standard library global `asset(_:_file:line:)` function. You pass this function an expression that evaluates to `true` or `false` and a message that should be displayed if the result of the condition is `false`:
 */
+let age = -3
+func register(name: String, age: Int) {
+    assert(age >= 0, "A person's age cannot be less than zero")
+}
 
-/*: 
+let array = [1,2,3]
+func getIndexOfArray(int: Int) {
+    assert(int >= 0 && int < array.count, "Invalid index")
+}
+//getIndexOfArray(2)
+/*:
 In this example, code execution will continue only if `age >= 0` evaluates to `true`, that is, if the value of `age` is non-negative.
 
 Assertions are disabled when your code is compiled with optimizations, such as when building with an app target's defaul Release configuration in Xcode
