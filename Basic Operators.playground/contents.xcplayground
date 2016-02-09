@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='rendered'>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
     <pages>
         <page name='Basic Operators'/>
+        <page name='Remainder Operator'/>
+        <page name='Unary Operator'/>
+        <page name='Compound Assignment Operators'/>
+        <page name='Ternary Conditional Operator'/>
+        <page name='Nil Coalescing Operator'/>
+        <page name='Range Operators'/>
         <page name='Logical Operators'/>
-        <page name='Strings and Characters'/>
-        <page name='Unicode'/>
     </pages>
 </playground>

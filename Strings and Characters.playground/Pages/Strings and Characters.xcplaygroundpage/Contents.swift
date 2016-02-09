@@ -1,4 +1,3 @@
-//: Previous [Logical Operators](@previous)
 //: ## Strings and Characters
 /*:
 A _string_ is a series of characters, such as `"hello, world"` or `"albatros"`.

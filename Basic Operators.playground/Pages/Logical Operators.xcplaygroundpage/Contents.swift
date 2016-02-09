@@ -1,4 +1,4 @@
-//: Previous [Basic Operators](@previous)
+//: Previous [Range Operators](@previous)
 //: ## Logical Operators
 //: _Logical operators_ modify or combine the Boolean logic values `true` and `false`.
 /*:
@@ -13,7 +13,7 @@ if !allowedEntry {
     print("ACCESS DENIED")
 }
 //: ### Logical AND Operator
-//: (`a && b`) creates logical expression where both values must be `true` for the overall expression 
+//: (`a && b`) creates logical expression where both values must be `true` for the overall expression
 let enteredDoorCode = true
 let passedRetinaScan = false
 if enteredDoorCode && passedRetinaScan {
@@ -46,4 +46,3 @@ if (enteredDoorCode && passedRetinaScan) || hasDoorKey || knowsOverridePassword 
 } else {
     print("ACCESSED DENIED")
 }
-//: Move on to [Strings and Characters](@next)

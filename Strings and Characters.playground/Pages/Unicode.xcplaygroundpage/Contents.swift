@@ -2,7 +2,7 @@
 //: ## Unicode
 //: _Unicode_ is an international standard for encoding, representing and processing text in different writing systems. It enables you to represent almost any character from any language in a standardize form, and to read and write those characters to and from an external source such as a text file or web page.
 //: ### Unicode Scalar
-/*: 
+/*:
 Behind the scenes, Swift's native `String` type is built from _Unicode scalar_ values. A Unicode scalar is a unique 21-bit number for a character or modifier, such as `U+0061` for `LATIN SMALL LETTER A` (`"a"`), or `U+1F425` for `FRONT-FACING BABY CHICK` (`"🐥"`)
 
 Unicode scalar is a unique 21-bit number for a character
