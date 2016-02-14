@@ -14,6 +14,8 @@ let someString = "Some string literal value"
 var emptyString = ""
 var anotherEmptyString = String()
 //: Find out whether a `String` value is empty by checking its Boolean `isEmpty` property
+var nilString: String? = nil
+nilString?.isEmpty
 if emptyString.isEmpty {
     print("Nothing to see here")
 }
@@ -51,4 +53,6 @@ welcome.append(exclamationMark)
 //: It is a way to construct a new `String` value from a mix of constants, variable, literals and expressions by including their values inside a string literal. Each item tha tyou insert into the string literal is wrapped in a pair of parenthesis, prefixed by a backslash
 let multiplier = 3
 let message = "\(multiplier) times 2.5 is \(Double(multiplier) * 2.5)"
+let i: Int? = nil
+let nilI = "i equals \(i)"
 //: Move on to [Unicode](@next)
