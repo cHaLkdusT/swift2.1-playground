@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='Classes and Structures'/>
+        <page name='Structures and Enumerations Are Value Types'/>
+        <page name='Classes Are Reference Types'/>
+        <page name='Choosing Between Classes and Structures'/>
+        <page name='Assignment and Copy Behavior for Strings, Arrays and Dictionaries'/>
+    </pages>
+</playground>
