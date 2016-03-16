@@ -1,4 +1,4 @@
-//: Previous[Subscript Usage](@previous)
+//: Previous [Subscript Usage](@previous)
 //: ## Subscript Options
 /*: 
 * Subscripts can take any number of input parameters and these input parameters can be of any type. 

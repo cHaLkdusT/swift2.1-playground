@@ -7,22 +7,22 @@ You can define multiple subscripts for a single type, and the appropriate subscr
 /*:
 Subscripts enable you to query instances of a type by writing one or more values in square brackets after the instance name. Their syntax is similar to both instance method syntax and computed property syntax. You write subscript definitions with the `subscript` keyword, and specify one or more input parameters and a return type, in the same way as instance methods. Unlike instance methods, subscripts can be read-write or ready-only. this behavior is communicated by a getter and setter in the same way for computed properties
 */
-subscript(index: Int) -> Int {
-    get {
-        // return an appropriate subscript value here
-        return 1
-    }
-    set {
-        // perform a suitable setting action here
-    }
-}
+//subscript(index: Int) -> Int {
+//    get {
+//        // return an appropriate subscript value here
+//        return 1
+//    }
+//    set {
+//        // perform a suitable setting action here
+//    }
+//}
 /*:
 The type of `newValue` is the same as the return value of the subscript. As with computed properties, you can choose not to specify the setter's (`newValue`) parameter. A default parameter called `newValue` is provided to your setter if you do not provide one yourself.
 As with read-only computed properties, you can drop the `get` keywrod for read-only subscripts
 */
-subscript(index: Int) -> Int{
-    // return an appropriate subscript value here
-}
+//subscript(index: Int) -> Int{
+//    // return an appropriate subscript value here
+//}
 //: Here's an example of a read-only subscript implementation, which defines a `TimesTable` structure to represent an n-times-table of integers:
 struct TimesTable {
     let multiplier: Int
