@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='5.0' target-platform='ios' requires-full-environment='true'>
-    <timeline fileName='timeline.xctimeline'/>
+<playground version='6.0' target-platform='ios' display-mode='raw' executeOnSourceChanges='false'>
+    <pages>
+        <page name='Initialization'/>
+        <page name='Customizing Initialization'/>
+        <page name='Default Initializers'/>
+        <page name='Initializer Delegation for Value Types'/>
+        <page name='Class Inheritances and Initialization'/>
+        <page name='Initializer Inheritance and Overriding'/>
+        <page name='Failable Initializers'/>
+        <page name='Required Initializer'/>
+        <page name='Setting a Default Property Value with a Closure or Function'/>
+    </pages>
 </playground>

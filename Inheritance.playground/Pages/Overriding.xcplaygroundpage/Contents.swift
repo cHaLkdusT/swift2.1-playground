@@ -1,7 +1,8 @@
 //: Previous [Inheritance](@previous)
 class Vehicle {
     var currentSpeed = 0.0
-    var description: String {
+    // Static computed property but is overridable
+    /*class*/ var description: String {
         return "traveling at \(currentSpeed) miles per hour"
     }
     func makeNoise() {

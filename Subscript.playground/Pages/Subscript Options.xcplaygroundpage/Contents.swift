@@ -23,7 +23,9 @@ struct Matrix {
     subscript(row: Int, column: Int) -> Double {
         get {
             assert(indexIsValidForRow(row, column: column), "Index out of range")
-            return grid[(row * columns) + column]
+            return 0.0
+            // TODO: Implement this return value
+//            return grid[(row * columns) + column]
         }
         set {
             assert(indexIsValidForRow(row, column: column), "Index out of range")
