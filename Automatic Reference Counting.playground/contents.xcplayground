@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='5.0' target-platform='ios' requires-full-environment='true'>
-    <timeline fileName='timeline.xctimeline'/>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='Automatic Reference Counting'/>
+        <page name='ARC in Action'/>
+        <page name='Strong Reference Cycles Between Class Instances'/>
+        <page name='Resolving Strong Reference Cycles Between Class Instances'/>
+        <page name='Unowned References'/>
+        <page name='Unowned References and Implicitly Unwrapped Optional Properties'/>
+        <page name='Strong Reference Cycles for Closures'/>
+        <page name='Resolving Strong Reference Cycles for Closures'/>
+    </pages>
 </playground>

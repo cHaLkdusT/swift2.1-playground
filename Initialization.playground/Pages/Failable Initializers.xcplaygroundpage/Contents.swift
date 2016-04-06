@@ -85,8 +85,8 @@ A failable initializer can also delegate to a nonfailable initilaizer. Use this 
 class Product {
     let name: String
     init?(name: String) {
-        self.name = name
         if name.isEmpty { return nil }
+        self.name = name
     }
 }
 class CartItem: Product {
