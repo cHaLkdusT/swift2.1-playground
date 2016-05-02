@@ -1,5 +1,5 @@
 //: Previous [Methods](@previous)
-//: Subscripts
+//: ## Subscripts
 /*:
  Extensions can add new subscripts to an existing type. This example adds an integer subscript to Swift's built-in `Int` type. This subscript `[n]` returns the deciaml digit `n` places in from the right of the number:
  * `123456789[0]` returns `9`

@@ -29,4 +29,5 @@
  
  NOTE: If you define an extension to add new functionality to an existing type, the new functionality will be available on all existing instances of that type, even if they were created before the extension was defined.
  */
- //: Move on to [Computed Properties](@next)
+
+//: Move on to [Computed Properties](@next)

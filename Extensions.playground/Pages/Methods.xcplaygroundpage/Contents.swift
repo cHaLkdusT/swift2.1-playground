@@ -1,5 +1,5 @@
 //: Previous[Initializers](@previous)
-//: Methods
+//: ## Methods
 //: Extensions can add new instance methods and type methods to existing types. The following example adds a new instance method called `repititions` to the `Int` type:
 extension Int {
     func repititions(task: () -> Void) {

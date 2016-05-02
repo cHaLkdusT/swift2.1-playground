@@ -27,4 +27,5 @@ print("Three feet is \(threeFeet) meters")
 let aMarathon = 42.km + 195.m
 print("A marathon is \(aMarathon) meters long")
 //: NOTE: Extensions can add new computed properties, but they cannod add stored properties, or add property observers to existing properties.
+
 //: Move on to [Initializers](@next)

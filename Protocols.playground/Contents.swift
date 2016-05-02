@@ -1,4 +1,4 @@
-/// PROTOCOLS
+//: # Protocols
 /// PROTOCOL SYNTAX
 //protocol SomeProtocol {
 //    // protocol definition here

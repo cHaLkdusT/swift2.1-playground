@@ -1,5 +1,5 @@
 //: Previous [Subscripts](@previous)
-//: Nested Types
+//: ## Nested Types
 //: Extensions can add new nested types to existing classes, structures and enumerations:
 extension Int {
     enum Kind {

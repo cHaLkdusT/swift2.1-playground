@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='5.0' target-platform='ios' requires-full-environment='true'>
-    <timeline fileName='timeline.xctimeline'/>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='Protocols'/>
+        <page name='Method Requirements'/>
+        <page name='Mutating Method Requirements'/>
+        <page name='Initializer Requirements'/>
+        <page name='Protocols as Types'/>
+        <page name='Delegation'/>
+        <page name='Adding Protocol Conformance with an Extension'/>
+        <page name='Collections of Protocol Types'/>
+        <page name='Protocol Inheritance'/>
+        <page name='Class-Only Protocols'/>
+        <page name='Protocol Composition'/>
+        <page name='Checking for Protocol Conformance'/>
+        <page name='Optional Protocol Requirements'/>
+        <page name='Protocol Extensions'/>
+    </pages>
 </playground>
