@@ -94,4 +94,5 @@ case let .failure(message):
 //: **Experiment** Add a third case to `ServerResponse` and to the switch
 
 //: Notice how the sunrise and sunset times are extracted from the `ServerResponse` value as part of matching the value against the switch cases.
+
 //: Next [Protocols and Extensions](@next)

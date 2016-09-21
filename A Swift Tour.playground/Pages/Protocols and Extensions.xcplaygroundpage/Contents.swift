@@ -47,10 +47,11 @@ extension Int: ExampleProtocol {
     }
 }
 print(7.simpleDescription)
-//: **Experiment* Write an extension for the `Double` type that adds an `absoluteValue` property
+//: **Experiment** Write an extension for the `Double` type that adds an `absoluteValue` property
 
 //: You can use a protocol name just like any other named type - for example, to create a collection of objects that have different types but that all conform to a single protocol. When you work with values whose type is a protocol type, methods outisde the protocol are not available.
 let protocolValue: ExampleProtocol = a
 print(protocolValue.simpleDescription)
 //: Even though the variable `protocolValue` has a runtime type of `SimpleClass`, the compiler treats it as the given type of `ExampleProtocol`. This means that you can't accidentally access methods or properties that the class implements in addition to its protocol conformance.
+
 //: Next [Error Handling](@next)

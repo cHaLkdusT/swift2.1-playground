@@ -94,9 +94,9 @@ print(triangle.perimeter)
  In the setter for `perimeter`, the new value has the implicit name `newValue`. You can provide an explicit name in parenthesis after `set`.
  
  Notice that the initializer for the `EquilateralTriangle` class has three different steps:
- # Setting the value of properties that the sublcass declares
- # Calling the superclass's initializer
- # Changing the value of properties defined by the superclass. Any additional setup work that uses methods, getters, or setters can also be done at this point.
+ * Setting the value of properties that the sublcass declares
+ * Calling the superclass's initializer
+ * Changing the value of properties defined by the superclass. Any additional setup work that uses methods, getters, or setters can also be done at this point.
  
  If you dont' need to compute the property but still need to provide code that is run before and after setting a new value, use `willSet` and `didSet`. The code you provide is run any time the value changes outside of an initializer. For example, the class below ensures that the side length of its triangle is always the same as the side length of its square.
  */
