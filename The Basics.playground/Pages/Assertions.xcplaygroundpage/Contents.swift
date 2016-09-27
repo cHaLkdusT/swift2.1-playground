@@ -1,7 +1,7 @@
 //: Previous [Assertions](@previous)
-//: # Assertions
+//: ## Assertions
 //: In some cases, it is simple not possible for your code to continue execution if a particular condition is not satisfied. In these situations, you can trigger an _assertion_ in your code to end code execution and to provide an opportunity to debug the cause of the absent of invalid value
-//: ## Debugging with Assertions
+//: ### Debugging with Assertions
 /*: 
 An assertion is a runtime check that a Boolean condition definitely evaluates to `true`. Literally put, an assertion "asserts" that a condition is true.
 
@@ -14,7 +14,7 @@ In this example, code execution will continue only if `age >= 0` evaluates to `t
 
 Assertions are disabled when your code is compiled with optimizations, such as when building with an app target's defaul Release configuration in Xcode
 */
-//: ## When to Use Assertions
+//: ### When to Use Assertions
 /*:
 * An integer subscript index is passed to  custom subscript implementation, but the subscript index value could be too low or too high
 * A value is passed to a function, but an invalid value means that the funciton cannot fulfill its task.

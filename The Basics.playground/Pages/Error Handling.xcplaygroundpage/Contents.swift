@@ -1,5 +1,5 @@
 //: Previous [Optionals](@previous)
-//: # Error Handling
+//: ## Error Handling
 //: You use _error handling_ to respond to error conditions your program may encounter during execution
 func canThrowAnError() throws {
     // this function may or may not throw an error

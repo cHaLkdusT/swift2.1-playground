@@ -1,5 +1,5 @@
 //: Previous [Type Safety and Type Inference](@previous)
-//: # Numeric Literals
+//: ## Numeric Literals
 // A _decimal_ number, with no prefix
 let decimalInteger = 17
 // A _binary_ number, with `0b` prefix

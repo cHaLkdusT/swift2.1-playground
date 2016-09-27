@@ -1,5 +1,5 @@
 //: Previous [Numeric Type Conversion](@previous)
-//: # Type Aliases
+//: ## Type Aliases
 /*: 
 _Type aliases_ define an alternative name for an existing type. You defined type aliases with the `typealias` keyword.
 
@@ -7,4 +7,4 @@ Type aliases are useful when you want to refer to an existing type by a name tha
 */
 typealias AudioSample = UInt16
 var maxAmplitudeFound = AudioSample.min//: Move on to [Booleans](@next)
-//: Move on to [Boolean](@previous)
+//: Move on to [Booleans](@previous)

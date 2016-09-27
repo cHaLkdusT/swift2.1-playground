@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='rendered'>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
     <pages>
         <page name='Introduction'/>
         <page name='Constants and Variables'/>
-        <page name='Integers and Floating-point numbers'/>
         <page name='Comments and Semicolon'/>
+        <page name='Integers and Floating-point numbers'/>
         <page name='Type Safety and Type Inference'/>
         <page name='Numeric Literals'/>
         <page name='Numeric Type Conversion'/>
         <page name='Type Aliases'/>
-        <page name='Boolean'/>
+        <page name='Booleans'/>
         <page name='Tuples'/>
         <page name='Optionals'/>
         <page name='Error Handling'/>

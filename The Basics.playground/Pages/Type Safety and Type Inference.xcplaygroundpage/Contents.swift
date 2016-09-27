@@ -1,6 +1,6 @@
 //: Previous [Integers and Floating-point numbers](@previous)
-//: # Type Safety and Type Infernce
-/*: 
+//: ## Type Safety and Type Inference
+/*:
 Swift is a _type-safe_ language. A type safe language encourages you to be clear about the types of values your code can work with. If part of your code expects a `String`, you can't pass it an `Int` by mistake
 
 Because Swift is type safe, it performs _type checks_ when compiling your code and flags any mismatched types as errors. This enable you to catch and fix errors as early as possible in the development process.

@@ -1,11 +1,11 @@
 //: Previous [Numeric Literals](@previous)
-//: # Numeric Type Conversion
+//: ## Numeric Type Conversion
 /*: 
 Use the `Int` type for all general-purpose integer constants and variables in your code, even if they are known to be non-negative. Using the default integer type in everyday situations means that integer constants and variables are immediately interoperable in your code and will match the inferred type for integer literal values.
 
 Use other integer types only when they are specifically needed for the task at hand, because of explicitly-size data from an external source, or for performance, memory usage, or ther necessary optimization.
 */
-//: ## Integer Conersion
+//: ### Integer Conversion
 //: The range of numbers that can be stored in an integer constant or variable is different for each numeric type.
 //let cannotBeNegative: UInt8 = -1
 //let tooBig: Int8 = Int8.max + 1
@@ -13,7 +13,7 @@ Use other integer types only when they are specifically needed for the task at h
 let twoThousand: UInt16 = 2_000
 let one: UInt8 = 1
 let twoThousandAndOne = twoThousand + UInt16(one)
-//: ## Integer and Floating-Point Conversion
+//: ### Integer and Floating-Point Conversion
 //: Conversions between integer and floating-point numberic types must be made explicit
 let three = 3
 let pointOneFourOneFiveNine = 0.14159

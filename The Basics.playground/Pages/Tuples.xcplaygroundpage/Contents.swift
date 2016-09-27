@@ -1,5 +1,5 @@
 //: Previous [Boolean](@previous)
-//: # Tuples
+//: ## Tuples
 //: _Tuples_ groupd multiple values into a single compound value. The values with a tuple can be of any type and do not have to be of the same type as each other
 let http404Error = (404, "Not Found") // describes an HTTP status code
 //: You can _decompose_ a tuple's contents into separate constants or variables, which you then access as usual
@@ -18,6 +18,5 @@ print("The status code is \(http200Status.statusCode)")
 print("The status message is \(http200Status.description)")
 /*: 
 Tuples are particulary useful as the return values of functions. A function that tries to retrieve a web page might return the `(Int, String)` tuple type to describe the success or failure of the page retrieval.
-
 Move on to [Optionals](@next)
 */

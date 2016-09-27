@@ -1,5 +1,5 @@
 //: Previous [Tuples](@previous)
-//: # Optional
+//: ## Optional
 //: You use _optionals_ in situations where a value mau be absent.
 /*:
 * There _is_ a value, and it equals _x_
@@ -13,14 +13,14 @@ Here's an example of how optionals can be used to cope with the absence of a val
 let possibleNumber = "123"
 let convertedNumber = Int(possibleNumber) // is inferred to be of type "Int?", or "optional Int"
 //*: Becuase the initializer might fail, it returns an _optional_ `Int`, rather than an `Int`. An optional `Int` is written as `Int?`, not `Int`. The question amrk indicates that the value it contains is optional, meaning that it might contain _some_ `Int`, or might contain _no value at all_.
-//: ## nil
+//: ### nil
 //: You set an optional variable to a valueless state by assigning it to the value value `nil`
 var serverResponseCode: Int? = 404
 serverResponseCode = nil
 //: If you define an optinoal variable without providing a default value, the variable is automatically set to `nil` for you
 var surveyAnswer: String? // surveyAnswer is automatically set to nil
 //: Swift's nil is not the same as nil in Objective-C. In Objective-C, nil is a pointer to a nonexistent object. Int Swift, nil is not a pointer - it is the absence of a value of a certain type. Optionals of any type can be set to nil, not just object types
-//: ## If Statements and Forced Unwrapping
+//: ### If Statements and Forced Unwrapping
 //: You can use an `if` statement to find out whether an optional contains a value by comparing the optional against `nil`.
 // You perform comparison with the "equal to" operator (==) or the "not equal to" operator (!=)
 if convertedNumber != nil {
@@ -31,7 +31,7 @@ if convertedNumber != nil {
     print("convertedNumber has na integer value of \(convertedNumber!).") // "I know that this optional definitely has a value; please use it."
     // This is known as 'forced unwrapping'
 }
-//: ## Optional Binding
+//: ### Optional Binding
 //: You use _optional binding_ to find out whether an optional contains a value, and if so, to make that value avaiable as a temporary constant or variable.
 if let actualNumber = Int(possibleNumber) {
     print("\'\(possibleNumber)\' has an integer value of \(actualNumber)")
@@ -39,11 +39,10 @@ if let actualNumber = Int(possibleNumber) {
     print("\'\(possibleNumber)\' could not be converted to an integer")
 }
 //: You can include multiple optional bindings in a single if and use a `where` clause to check for a Boolean condition
-if let firstNumber = Int("4"), secondNumber = Int("42")
-    where firstNumber < secondNumber {
+if let firstNumber = Int("4"), let secondNumber = Int("42"), firstNumber < secondNumber && secondNumber < 100 {
     print("\(firstNumber) < \(secondNumber)")
 }
-//: ## Implicit Unwrapped Optionals
+//: ### Implicit Unwrapped Optionals
 //: Sometimes it is clear from a program's structure that an optional will _always_ have a value, after that value is first set. Int these cases, it is useful to remove the need to check and unwrap the optional's value every time it is accessed, because it can be safely assumed to have a value all of the time.
 let possibleString: String? = "An optional string."
 let forcedString: String = possibleString!
@@ -57,7 +56,7 @@ let implicitString: String = assumedString
 if assumedString != nil {
     print(assumedString)
 }
-
+//: You can also use an implicitly unwrapped optional with optional binding, to check and unwrap its value in a single statement:
 if let definiteString = assumedString {
     print(definiteString)
 }
