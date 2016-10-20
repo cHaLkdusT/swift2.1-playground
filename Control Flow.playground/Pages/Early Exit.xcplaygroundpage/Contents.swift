@@ -13,8 +13,8 @@ func greet(person: [String: String]) {
     }
     print("I hope the weather is nice in \(location)")
 }
-greet(["names": "John"])
-greet(["name": "Jane", "location": "Cupertino"])
+greet(person: ["names": "John"])
+greet(person: ["name": "Jane", "location": "Cupertino"])
 /*:
 If the `guard` statement's condition is met, code execution continues after the `guard` statement's closing brace. Any variables or constants that were assigned values using an optional binding as part of the condition are available for the rest of the code block that the `guard` statement appears in.
 If the condition is not met, the code inside the `else` branch is executed. That branch must transfer control to exit the code block in which the `guard` statement appears. It can do this with a control transfer statement such as `return`, `break`, `continue`, or `throw`, or it can call a function or method that doesn't return, such as `fatalError()`

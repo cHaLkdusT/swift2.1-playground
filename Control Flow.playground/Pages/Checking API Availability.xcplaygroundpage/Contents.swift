@@ -1,8 +1,9 @@
 //: Preivous [Early Exit](@previous)
 //: ## Checking API Availability
 /*:
-Swift has built-in support for checking API availability, which ensures that you don't accidentally use APIs that are unavailable on a given deployment target.
-The compiler uses availability information in the SDK to verify that all of the APIs used in your code are available on the deployment target specified by your project.
+ Swift has built-in support for checking API availability, which ensures that you don't accidentally use APIs that are unavailable on a given deployment target.
+ 
+ The compiler uses availability information in the SDK to verify that all of the APIs used in your code are available on the deployment target specified by your project.
 */
 if #available(iOS 9, OSX 10.10, *) {
     // Use iOS 9 APIs on iOS, use OS X v10.10 APIS on OS X
