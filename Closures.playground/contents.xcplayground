@@ -5,7 +5,7 @@
         <page name='Trailing Closures'/>
         <page name='Capturing Values'/>
         <page name='Closures Are Reference Types'/>
-        <page name='Nonescaping Closures'/>
+        <page name='Escaping Closures'/>
         <page name='Autoclosures'/>
     </pages>
 </playground>
