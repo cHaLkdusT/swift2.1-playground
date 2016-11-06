@@ -27,14 +27,14 @@ let initialSquareCenter = square.center
 square.center = Point(x: 15.0, y: 15.0)
 print("square.origin is now at (\(square.origin.x), \(square.origin.y))")
 /*:
-* `Point` encapsulates an `(x, y)` coordinate
-* `Size` encapsulates a `width` and a `height`
-* `Rect` defines a rectangle by an origin point and a size.
-![Computed Properties](computedProperties_2x.png "Computed Properties")
+ * `Point` encapsulates an `(x, y)` coordinate
+ * `Size` encapsulates a `width` and a `height`
+ * `Rect` defines a rectangle by an origin point and a size.
+ ![Computed Properties](computedProperties_2x.png "Computed Properties")
 */
 //: ### Shorthand Setter Declaration
 // If a computed property's setter does not define a name for the new value to be set, a default name of newValue is used
-struct AternativeRect {
+struct AlternativeRect {
     var origin = Point()
     var size = Size()
     var center: Point {
@@ -49,10 +49,12 @@ struct AternativeRect {
         }
     }
 }
-//: ### Read-Only Computed Properties
+
 /*: 
-A computed property with a getter but no setter is known as a _read-only computed propert_. A read-only computed property always returns a value, and can be accessed through dot syntax, but cannot be set to a different value.
-You must declare computed properties - including read-only computed properties - as variable properties with `var` keyword, because their value is not fixed. The `let` keyword is only used for constant properties, to indicate their values cannot be changed once they are set as part of instance initialization.
+ ### Read-Only Computed Properties
+ A computed property with a getter but no setter is known as a _read-only computed propert_. A read-only computed property always returns a value, and can be accessed through dot syntax, but cannot be set to a different value.
+ 
+ > You must declare computed properties - including read-only computed properties - as variable properties with `var` keyword, because their value is not fixed. The `let` keyword is only used for constant properties, to indicate their values cannot be changed once they are set as part of instance initialization.
 */
 struct Cuboid {
     var width = 0.0, height = 0.0, depth = 0.0
