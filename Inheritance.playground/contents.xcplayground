@@ -3,5 +3,6 @@
     <pages>
         <page name='Inheritance'/>
         <page name='Overriding'/>
+        <page name='Preventing Overrides'/>
     </pages>
 </playground>
